@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SrvFiveChess - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/SrvFiveChess.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\BlackStatic.cpp"
+"F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp"
+"F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ClientSock.cpp"
+"F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\LeftPanel.cpp"
+"F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\RightPanel.cpp"
+"F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\SrvFiveChess.cpp"
+"F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\SrvFiveChessDlg.cpp"
+"F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\SrvSock.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D2.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D3.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/SrvFiveChess.pdb" /debug /machine:I386 /out:"Debug/SrvFiveChess.exe" /pdbtype:sept 
+".\Debug\BlackStatic.obj"
+".\Debug\ChessBorad.obj"
+".\Debug\ClientSock.obj"
+".\Debug\CustomMenu.obj"
+".\Debug\LeftPanel.obj"
+".\Debug\RightPanel.obj"
+".\Debug\ServerSetting.obj"
+".\Debug\SrvFiveChess.obj"
+".\Debug\SrvFiveChessDlg.obj"
+".\Debug\SrvSock.obj"
+".\Debug\StdAfx.obj"
+".\Debug\SrvFiveChess.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D3.tmp"
+<h3>Output Window</h3>
+Compiling...
+BlackStatic.cpp
+Generating Code...
+Compiling...
+ChessBorad.cpp
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(141) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(142) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(153) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(154) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(231) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(232) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(234) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(235) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(257) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(258) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(259) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(260) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(280) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(281) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(282) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(283) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(575) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(576) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(1070) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+F:\新建文件夹\第2章  快乐五子棋\SrvFiveChess\ChessBorad.cpp(1071) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+RightPanel.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+ClientSock.cpp
+LeftPanel.cpp
+SrvFiveChess.cpp
+SrvFiveChessDlg.cpp
+SrvSock.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+SrvFiveChess.exe - 0 error(s), 20 warning(s)
+</pre>
+</body>
+</html>
